@@ -54,6 +54,72 @@ Not a summary engine. A **disagreement engine**.
 
 ---
 
+## 🔬 Why this is actually useful (not yet another book list)
+
+**Every book is distilled across 5 angles, not 1.** That's the architectural decision that makes the skill genuinely useful — and what separates it from "I read a book, here's a summary."
+
+```
+                  📚 ONE BOOK
+                        │
+   ┌──────────┬─────────┼─────────┬──────────┐
+   │          │         │         │          │
+   ▼          ▼         ▼         ▼          ▼
+公司战略    创业战术    个人现金流   失败红线   30/60/90
+Company   Startup    Personal   Failure    Action
+   │          │         │         │          │
+   └──────────┴─────────┼─────────┴──────────┘
+                        │
+                        ▼
+              + AI 时代改写
+              + Cross-book stacking
+```
+
+### Sample: "Influence" (Cialdini #52) actually yields
+
+> "Founder's work isn't to 'explain value' — it's to fire 6 psychological triggers in sequence. Sales cycle length = inverse of how completely you deploy the 6 principles."
+
+| Angle | What the skill returns |
+|---|---|
+| 🏢 **Company** | Cold email 第一封必带 specific report (互惠激活), CTR ↑ 3x |
+| 🚀 **Startup** | Target: 6 principles fully deployed → sales cycle 90 days → 30 days |
+| 👤 **Personal** | 6 principles also a BS detector — spot which one is being run on YOU |
+| ⚠️ **Red line** | Overuse = manipulation = trust reversal at 5x normal speed |
+| ⏱ **48h action** | Audit your 5 most recent cold emails — name which principle each fires |
+| 🤖 **AI era** | LLM lets you generate personalized互惠 reports at scale — but creepy line is real |
+
+**One book. Six different lenses. Not philosophy — operating instructions.**
+
+### Sample one-liners (Part 4 of every distillation)
+
+The skill commits to a final "if you remember one sentence" line for each book. These are NOT summaries. They're calibrated for action:
+
+> **#34 张小龙**: Product 经理不是加功能的人，是 standing-next-to-God 决定哪些功能不该存在的人。每一次"删"比每一次"加"更重要。
+
+> **#36 梁宁**: 产品不是功能，是三层价值的组合 + 认知战 + 关系 4 次第。SaaS 天花板差异 100x 不在功能，在情绪和资产价值层是否做出来。
+
+> **#92 Covey**: 高效能不是技巧，是 OS。Founder 这场仗 5 年看技巧，10 年看品格。
+
+> **#98 Hastings**: 先建人才密度 → 再做极致坦诚 → 最后减管控。顺序不能跳。3 人时的 default 就是 500 人时的文化基因。
+
+> **#32 大败局 II**: 做大不等于成功。所有失败者在 plummet 前都觉得自己势不可挡。成功是中间状态，不是终点。
+
+> **#X1 谢胜子**: 利益锚点清晰 + 杠杆 + 苟着小赢 + 看破不说破 + 物种同频 = 中国语境下成年人操盘自己的 5 件法器。
+
+### What this means for you
+
+Most "AI book summary" tools give you **the book's TOC, rephrased**.
+
+Reading Compass gives you:
+- A 12-15 KB structured distillation per book (4 parts, 9 subsections)
+- 5+ angles on every framework: 公司 / 创业 / 个人 / 失败 / 行动
+- Cross-book stacking that surfaces productive tension
+- AI-era recontextualization (every framework re-asked: "does this still hold post-GPT?")
+- Concrete 30/60/90 actions, not vague principles
+
+→ When you ask the compass a decision question, you don't get one book's flat answer. You get **5 books arguing productively + a committed verdict**.
+
+---
+
 ## 🎯 Install in one line
 
 ```bash
