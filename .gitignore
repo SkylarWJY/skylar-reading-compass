@@ -1,0 +1,24 @@
+# Personal context (private to each user)
+MY_CONTEXT.md
+.context/
+
+# OS
+.DS_Store
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temp
+*.tmp
+*.log
+
+# Private working drafts (not in v1.0 public release)
+library/deep-notes/
+drafts/
