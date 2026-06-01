@@ -1,6 +1,9 @@
-# 📚 The Library — 60 Books, 9 Clusters
+# 📚 The Library — 61 / 100 Books
 
-> Part of a 100-book founder reading journey. 60 distilled to date; 40 in pipeline.
+> Curated from **行者老师** 的 100 本创业系统读书书单 (中文创业圈最系统的 founder reading list)  
+> Distilled by **Skylar Wang** · ANSIO founder · ex-Morgan Stanley · Columbia  
+>  
+> **61 books distilled. 39 in pipeline.** Updated weekly.
 
 > Each book = one-line distilled core + when-to-pull trigger. Click cluster name for deep notes.
 
@@ -209,4 +212,6 @@ Each book's deep notes (12-15KB each) live in private working drafts. This index
 
 ---
 
-*Curated by Skylar Wang. Last updated 2026-06-01. v1.0 · 60 books distilled, 40 in pipeline.*
+*Reading list curated by **行者老师** (百万博主 · 小红书 · 抖音).  
+Distilled & engineered by **Skylar Wang** (ANSIO).  
+Last updated 2026-06-01 · v1.1.0 · 61 books distilled · 39 in pipeline.*
