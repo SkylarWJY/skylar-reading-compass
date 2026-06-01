@@ -2,44 +2,58 @@
 
 # 📍 Reading Compass
 
-### **Same book. Your angle.**
+### **行者老师 100-book founder system · engineered into a Claude skill**
 
-> **61 books × 6 reader personas = 366 distilled takeaways.**  
-> Based on **[@行者](https://xhslink.com/m/92fI81VQlmM)** 的 100 本创业书单 (小红书 · **4.4M 赞收藏**)
+> ***"How 比 What 重要"*** — 行者老师如是说.  
+> *("How matters more than What" — the curator's core thesis)*  
+>  
+> This skill re-cuts every book for **who YOU actually are right now**, in 最直白的话 (plainest possible language).
 
-You don't read 60 books in the same way at 25, 35, or 45. The same book hits differently if you're at Google vs. running a 3-person startup vs. building a personal brand.
-
-This skill takes 61 books from 行者老师's legendary reading list and **re-frames every takeaway for who YOU actually are right now** — in 最直白的话.
+**8 systems · 32 sub-categories · 100 books (61 distilled)**  
+Built on **[@行者](https://xhslink.com/m/92fI81VQlmM)** 老师's legendary 创业系统读书全方案 (小红书 · **4.4M likes & saves**)
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-yellow)]()
 [![Books](https://img.shields.io/badge/books-61%20%2F%20100-blue)](library/INDEX.md)
-[![Personas](https://img.shields.io/badge/personas-6-purple)]()
+[![Systems](https://img.shields.io/badge/8_systems-purple)]()
 [![Source](https://img.shields.io/badge/行者-4.4M%20likes-red)](https://xhslink.com/m/92fI81VQlmM)
 [![Claude Skill](https://img.shields.io/badge/Claude-Skill-black)](https://docs.claude.com/en/docs/agents-and-tools/agent-skills)
 [![中文](https://img.shields.io/badge/中文-README-green)](README.zh.md)
 
-[**Install**](#-install) · [**Personas**](#-pick-your-persona) · [**Library**](library/INDEX.md) · [**中文**](README.zh.md)
+[**Install**](#-install) · [**8 Systems**](#-the-8-systems--32-sub-categories) · [**Who is this for**](#-who-is-this-for-6-personas) · [**Library**](library/INDEX.md) · [**中文**](README.zh.md)
 
 </div>
 
 ---
 
-## 🎬 The killer demo · One book, 6 readers
+## 🎯 The curator's manifesto
 
-Take **《影响力》(Cialdini)** — the same 6 psychological principles. Now watch how the takeaway changes by who's asking:
+> **"How matters more than What.  
+> Some say they want to learn but don't know how. Some want to start a company but don't know what to do.  
+> The missing piece is **system thinking**.  
+> Once you learn how to build the knowledge system of entrepreneurship, every complex problem becomes manageable."**
 
-| Persona | What this book actually means for you |
-|---------|---------------------------------------|
-| 🏢 **大厂员工 / 打工人** | 老板让你"承诺"做一件事 → 一致性原则在被用在你身上。**先别立刻答应**。说"让我想想"。承诺一旦说出口，就回不去了。 |
-| 🚀 **创业者** | Cold email 第一封必带一份 specific report (互惠激活) → 回复率 ×3。不送先要 = 你在裸奔。 |
-| 👥 **管理者 / 中层** | 团队"自愿"加班 = 你激活了承诺一致 + 社会认同。**这是权力，不是文化**。别自我感动。 |
-| 🎤 **个人 IP / 创作者** | 每条帖子 trigger ≥ 1 个原则。最高 ROI：社会认同（"已有 X 人订阅" / 数字社会证明）。 |
-| 💰 **投资人** | Founder pitch 用了几条原则 = 信号。用 1-2 条 = 自然。用 5 条以上 = 操纵嫌疑，pass。 |
-| 🔄 **转型期 / 跳槽** | 谈薪资先用稀缺 ("我手上还有 2 个 offer") + 权威 (前司 title)。**直接谈数字 = 输掉**。 |
+—— **[@行者](https://xhslink.com/m/92fI81VQlmM)** (4.4M likes & saves on 小红书)
 
-**Same 6 principles. 6 different action items. 0 paraphrasing.**
+This skill is the **engineered version of that system** — 61 distilled books from the 100-book curriculum, re-framed for who you are.
 
-That's what "为你读书" actually means.
+---
+
+## 🎬 Same book · Six readers · Six action items
+
+Take **《影响力》(Cialdini)** — the same 6 psychological principles, six different conclusions:
+
+| Who you are | What this book actually means for you |
+|------|---------------------------|
+| 🚀 **About-to-start founder** | First cold email must include a specific report (互惠 trigger) → reply rate ×3. **No report = you're naked**. |
+| 💼 **Day-job + side hustle** | Your free content IS your 互惠 — but give "just enough", keep 30% in paid. **Give everything away = side hustle dies** |
+| 🎯 **IC aiming for management** | "Voluntary" overtime from your team = you triggered commitment + social proof. **That's power, not culture**. Don't kid yourself |
+| 🎓 **Student in business** | The "authority" principle is always running on you in school. **Actively question authority = your independent-thinking muscle** — this is the business student's moat |
+| 📊 **Investor / macro reader** | Founder pitch using 1-2 principles = natural. **Using 5+ = manipulation flag = pass** |
+| 🌍 **Curious about how the world works** | The 6 principles are commerce's hidden OS. **Once you see it, every 小红书 viral post reveals which 1-2 principles it used** |
+
+**Same 6 principles. 6 distinct action items. Zero filler.**
+
+That's what "为你读书" (reading on your behalf) actually means.
 
 ---
 
@@ -52,183 +66,64 @@ git clone https://github.com/SkylarWJY/skylar-reading-compass.git ~/.claude/skil
 Then tell Claude who you are, then ask anything:
 
 ```
-"我是 Meta 的 Senior PM. 用 reading compass 告诉我《七个习惯》对我有什么用。"
-"我在做副业,《影响力》6 原则我怎么用?"
-"我是 VC,如何用《创业维艰》看 founder 的 wartime 能力?"
-"我刚毕业,《OKR》对个人成长怎么应用?"
+"I'm about to start a company. How do I use the 6 principles in Cialdini?"
+"I'm a Meta PM building a side hustle. What does 《七个习惯》 mean for me?"
+"I just graduated. How do I apply OKR to personal growth?"
+"I'm a VC. How does 《创业维艰》 help me read founders?"
 ```
 
 ---
 
-## 👤 Pick your persona
+## 📚 The 8 Systems · 32 sub-categories
 
-The skill **adapts to your stage**. Pick one (or let Claude detect):
+Structure mirrors **行者's official curriculum** exactly. Each system → distilled books.
 
-<table>
-<tr>
-<td width="33%" valign="top">
+### 1️⃣ Economics & Macro Trends (5/5 ✅)
+**Pull when**: cycles, policy, market entry, geopolitics
+- 黄奇帆 · 温铁军 · 吴敬琏 · Greenspan
 
-### 🏢 大厂员工
-**Big Tech IC / 打工人**
+### 2️⃣ Entrepreneurial Thinking (12/15)
+**Pull when**: 0→1, wartime CEO, pivot decisions
+- Thiel · Horowitz · Ries · Maurya · Christensen · 柳井正 · Walton · Biz Stone · 雷军 · 段永平 · 关明生
 
-锚定问题：  
-*"这本书怎么帮我升职 / 不被裁 / 做出影响力？"*
+### 3️⃣ How to Build Product (5/8)
+**Pull when**: product decisions, Discovery, PRDs, feature go/no-go
+- 张小龙 · 梁宁 · 俞军 · 玉树真一郎 · Cagan
 
-Anchor concerns:  
-- 向上管理
-- 影响圈 vs 关注圈
-- 不卷又能升职
-- 跨部门协作
+### 4️⃣ Marketing & Positioning (7/12)
+**Pull when**: positioning, messaging, personal IP, viral content
+- Trout · 冯卫东 · 华杉 · Berger · Gladwell · Mark · Holt
 
-</td>
-<td width="33%" valign="top">
+### 5️⃣ Traffic & Growth (7/10)
+**Pull when**: acquisition, conversion, retention, community
+- Eyal · Ferrier · Cialdini · 杨飞 · Ellis · 徐志斌 (×2)
 
-### 🚀 创业者
-**Founder / 老板**
+### 6️⃣ Finance & Legal (3/15) ⚠️ Deep gap
+**Pull when**: financials, pricing, unit economics, compliance
+- 张新民 · Croll · Desai
+- 🚧 Coming: equity law, e-commerce tax, startup legal
 
-锚定问题：  
-*"这本书怎么帮我 ship + 活下来 + 不犯前人犯过的错？"*
+### 7️⃣ Equity & Fundraising (0/12) ⚠️ Deep gap
+**Pull when**: term sheets, cap tables, VC negotiation
+- 🚧 Coming: Brad Feld, 桂曙光, 苏龙飞, 史蒂文·霍夫曼
 
-Anchor concerns:  
-- 0→1 / PMF
-- Cap table / VC
-- 招人 / 文化
-- 失败模式 pre-mortem
-
-</td>
-<td width="33%" valign="top">
-
-### 👥 管理者 / 中层
-**Manager / Team Lead**
-
-锚定问题：  
-*"这本书怎么帮我带团队 + 立威 + 不变成讨厌的领导？"*
-
-Anchor concerns:  
-- OKR 落地
-- 1:1 / 反馈
-- Performance review
-- 留住关键人才
-
-</td>
-</tr>
-<tr>
-<td width="33%" valign="top">
-
-### 🎤 个人 IP / 创作者
-**Creator / Solopreneur**
-
-锚定问题：  
-*"这本书怎么帮我涨粉 / 涨收入 / 不被算法绑架？"*
-
-Anchor concerns:  
-- 定位 / 人设
-- 内容裂变
-- 私域沉淀
-- 把读者变收入
-
-</td>
-<td width="33%" valign="top">
-
-### 💰 投资人
-**VC / Angel / 散户**
-
-锚定问题：  
-*"这本书怎么帮我看 founder / 看赛道 / 看周期？"*
-
-Anchor concerns:  
-- Founder 评估
-- 行业判断
-- 失败模式识别
-- 周期 vs 趋势
-
-</td>
-<td width="33%" valign="top">
-
-### 🔄 转型期 / 学生
-**Transitioner / Student**
-
-锚定问题：  
-*"这本书怎么帮我决定下一步 / 不踩坑 / 长期复利？"*
-
-Anchor concerns:  
-- 跳槽 / 创业决策
-- 副业起步
-- 个人现金流
-- 5 年地图
-
-</td>
-</tr>
-</table>
+### 8️⃣ Team Building (6/8)
+**Pull when**: hiring, OKR, 1:1s, performance, culture
+- Schmidt · Grove · Doerr · Hastings · McCord · Covey
 
 ---
 
-## 📖 Sample · 《七个习惯》across 6 personas
+### ➕ Skylar's Bonus · 2 add-on clusters
 
-Watch how Stephen Covey's classic gets re-cut depending on who's reading:
+> These two clusters aren't in 行者's official 8 — they're additions I made because **they massively improve founder decision quality**. Use at your discretion.
 
-### Original (Covey 的原话)
-> *"消极被动的人，言语中就会流露出推卸责任的个性。例如：'我就是这样。'仿佛是说：这辈子注定改不了。"*
+**💥 Failure Library (3 books) ✅**  
+*Pre-mortem reading for every major decision*  
+大败局 I/II · 十亿美金的教训
 
-### What it means for YOU:
-
-**🏢 大厂员工读到的是**：  
-"我就是这样" = 中层魔咒。每次说 "我们公司就这样" / "老板就这样" / "团队就这样" 你的影响圈就缩小一寸。**3 年后你还在这个位置就是因为这个**。
-
-**🚀 创业者读到的是**：  
-Founder 唯一不能有的口头禅就是"市场就是这样"。市场是你创造的——你说"市场就这样"那就是你认输了。这一句话能筛掉 80% 不该投的项目。
-
-**👥 管理者读到的是**：  
-团队说"我就这样"时，你不能接住。接住 = 默认。要在 1:1 里直接 challenge：**"那你打算怎么变？"** 不给他逃跑路径。
-
-**🎤 创作者读到的是**：  
-不要再发 "我就是这样写" 的内容。粉丝不为你的 "this is who I am" 买单——他们为你的"变化"买单。每个月迭代你的 voice，关注圈才会扩张。
-
-**💰 投资人读到的是**：  
-Founder 第一次 pitch 时如果说"市场就这样" / "竞争太激烈" / "时机不好"——直接 pass。他没意识到自己在关注圈里。**这种 founder 救不了**。
-
-**🔄 转型期读到的是**：  
-"我已经 30 了，转不动了" / "我背景不对" / "我没人脉"——每说一次就给自己缩一寸影响圈。**Covey 用一生证明：影响圈是你能控制的。每个月扩 1 寸，5 年后是另一个人**。
-
----
-
-## 🔬 The 9 angles per book (each persona's lens)
-
-Every book in the library is distilled across the same 9 angles. Your persona changes which angles get emphasized:
-
-| # | Angle | 大厂 | 创业 | 管理 | 创作 | 投资 | 转型 |
-|---|-------|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | 决策框架（N 步过滤器） | ⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ |
-| 2 | 公司 / 项目诊断 | ⭐ | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐ | ⭐ |
-| 3 | 客户工作启示 | ⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐ |
-| 4 | AI 时代机会扫描 | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ |
-| 5 | 个人赚钱机会 | ⭐⭐⭐ | ⭐⭐ | ⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐ |
-| 6 | 反共识洞察 | ⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ |
-| 7 | 30/60/90 行动 | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐ |
-| 8 | 警惕清单（这本书可能误导你的地方） | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐ | ⭐⭐ | ⭐⭐⭐ |
-| 9 | Cross-book stacking | ⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐ | ⭐⭐⭐ | ⭐⭐ |
-
-⭐⭐⭐ = 你应该读的角度 · ⭐⭐ = 顺便看 · ⭐ = 跳过没关系
-
----
-
-## 📚 The library — 61 / 100 books, 9 clusters
-
-| Cluster | # | 大厂 | 创业 | 管理 | 创作 | 投资 | 转型 |
-|---------|---|:---:|:---:|:---:|:---:|:---:|:---:|
-| 🏛 Macro & Foundations | 5 | · | ✅ | · | · | ✅✅ | · |
-| 🇨🇳 China Context | 8 | ✅ | ✅✅ | ✅ | ✅ | ✅✅ | ✅ |
-| 💥 Failure Library | 3 | ✅ | ✅✅✅ | ✅ | ✅ | ✅✅✅ | ✅✅ |
-| 🛠 Product Methodology | 5 | ✅✅ | ✅✅ | ✅✅ | ✅ | ✅ | · |
-| 🎨 Brand & Narrative | 7 | · | ✅✅ | · | ✅✅✅ | ✅ | ✅ |
-| 🧠 Growth & Persuasion | 7 | ✅ | ✅✅ | ✅ | ✅✅✅ | ✅ | ✅ |
-| 👥 Management & Culture | 6 | ✅✅ | ✅✅ | ✅✅✅ | · | ✅ | ✅ |
-| 🚀 Startup Classics | 9 | ✅ | ✅✅✅ | ✅ | · | ✅✅ | ✅✅ |
-| 💭 Mental OS | 7 | ✅✅ | ✅✅ | ✅✅ | ✅✅ | ✅✅ | ✅✅✅ |
-
-[**See full 61-book index →**](library/INDEX.md)
-
-✅✅✅ = 这个人设必读 · ✅✅ = 高 ROI · ✅ = 可以看
+**💭 Mental OS · Decision Quality (7 books) ✅**  
+*Founder心法, critical thinking, communication structure*  
+Covey · Browne · Minto · Knapp · 谢胜子 · 张亚勤 · 芒格 (pipeline)
 
 ---
 
@@ -237,36 +132,193 @@ Every book in the library is distilled across the same 9 angles. Your persona ch
 ```
 █████████████████████████████████░░░░░░░░░░░░░  61%
 
-宏观地基       ████████████████████  5/5     ✅
-中国语境       ██████████████████░░  8/10
-失败案例库     █████████████████████ 3/3     ✅
-产品方法论     ████████████████████  5/5     ✅
-品牌叙事       ████████████████████  7/7     ✅
-增长说服       ████████████████████  7/7     ✅
-管理文化       ████████████████████  6/6     ✅
-创业经典       ████████████████░░░░  9/12
-心智 OS        ████████████████████  7/7     ✅
-财务数据       ███████░░░░░░░░░░░░░  3/10    (深度 gap)
+1️⃣ Economics & Macro      ████████████████████  5/5     ✅
+2️⃣ Entrepreneurial Thinking ████████████████░░░░  12/15
+3️⃣ How to Build Product   ████████████░░░░░░░░  5/8
+4️⃣ Marketing & Positioning ████████████░░░░░░░░  7/12
+5️⃣ Traffic & Growth       ██████████████░░░░░░  7/10
+6️⃣ Finance & Legal        ████░░░░░░░░░░░░░░░░  3/15    🚧 deep gap
+7️⃣ Equity & Fundraising   ░░░░░░░░░░░░░░░░░░░░  0/12    🚧 deep gap
+8️⃣ Team Building          ████████████████░░░░  6/8
+➕ Failure Library (bonus) █████████████████████ 3/3     ✅
+➕ Mental OS (bonus)       ████████████████████  7/7     ✅
 ```
 
-剩 39 本。每周更新。⭐ this repo 跟进。
+39 books remaining. Updated weekly. ⭐ to follow.
 
 ---
 
-## 🧠 Why this works · Compass vs Generic AI
+## 👤 Who is this for? · 6 personas
+
+Matches **行者老师's official 6-audience segmentation**:
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### 🚀 About-to-start founder
+*Don't want to burn cash on mistakes*
+
+**Anchor**: *"Will reading this help me avoid pitfalls?"*
+
+Cares about:
+- Failure pre-mortems
+- 0→1 business models
+- Finding customers / PMF
+- Co-founder selection
+
+</td>
+<td width="33%" valign="top">
+
+### 💼 Day job + side hustle
+*Low-cost second curve*
+
+**Anchor**: *"Can this turn my off-hours into income?"*
+
+Cares about:
+- Personal IP / content
+- Traffic / conversion
+- Time management
+- Day job stays safe
+
+</td>
+<td width="33%" valign="top">
+
+### 🎯 IC → Management track
+*Aiming to lead*
+
+**Anchor**: *"Will this get me promoted?"*
+
+Cares about:
+- Upward management
+- Cross-functional
+- OKR / team
+- Business sense
+
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+
+### 🎓 Student in business
+*Curious about commerce*
+
+**Anchor**: *"Will this build my system thinking?"*
+
+Cares about:
+- Fundamentals
+- Major / career choice
+- Long-term compounding
+- Avoiding traps
+
+</td>
+<td width="33%" valign="top">
+
+### 📊 Investor / macro reader
+*Personal investing / guiding kids*
+
+**Anchor**: *"Will this help me read trends?"*
+
+Cares about:
+- Cycles vs trends
+- Founder evaluation
+- Macro / policy
+- 5-10 year maps
+
+</td>
+<td width="33%" valign="top">
+
+### 🌍 Curious about commerce
+*"Ultimate explanatory power"*
+
+**Anchor**: *"Will this help me understand how the world works?"*
+
+Cares about:
+- First-principles commerce
+- Hidden industry rules
+- Seeing through ads
+- Becoming clear-eyed
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🎬 4 usage modes (matches 行者's 4-scenarios)
+
+行者老师 segments usage into 4 scenarios. Our skill responds in 4 modes:
+
+| Your situation | What the skill returns |
+|---------|--------------|
+| 1️⃣ **You have time to study** | Full reading plan across 8 systems + action items |
+| 2️⃣ **You have no time** | 1-2 sentence takeaway, usable today |
+| 3️⃣ **Not starting yet, but curious about business** | Skips 0→1 tactics; emphasizes first-principles + macro lens |
+| 4️⃣ **Active practice + reading combined** | You name your current problem; I stack 3-5 books that map to it |
+
+---
+
+## 📖 Sample · 《七个习惯》across 6 personas
+
+Watch Stephen Covey's classic get re-cut by reader:
+
+### Original (Covey's actual words)
+> *"消极被动的人，言语中就会流露出推卸责任的个性。例如：'我就是这样。'仿佛是说：这辈子注定改不了。"*
+
+### What it means for YOU:
+
+**🚀 About-to-start founder reads**:  
+A founder's most dangerous phrase is "the market is just like that." The market is what you create. Saying "it's just like that" = you've already lost. **This one sentence filters out 80% of bad startup ideas**.
+
+**💼 Day-job + side hustle reads**:  
+"I have no time for a side hustle" / "I have no audience" / "I can't write." Every time you say it, you sentence the side hustle to death. **5 years from now, every person without a side hustle is a victim of these three sentences**.
+
+**🎯 IC → Manager reads**:  
+"I'm just not good at managing people" / "my company doesn't develop middle managers." Your circle of influence shrinks. **Change to "I'll mentor one new hire next month" — your influence expands immediately**.
+
+**🎓 Student reads**:  
+"My major doesn't match" / "my family has no connections" / "my school isn't elite enough" — these are the 3 biggest traps of college. **Being proactive = the #1 skill you should drill from age 18**.
+
+**📊 Investor reads**:  
+When a founder pitches with "the market is just like that" / "competition is too fierce" / "timing is off" — pass. They haven't realized they're in the circle of concern. **This kind of founder cannot be saved**.
+
+**🌍 Curious reader reads**:  
+Every business miracle (Apple, Tesla, ByteDance) starts with a founder who **refused to accept "this industry is just like that"**. Once you see this, you understand why most industries are unchanged for 30 years — **because most people accepted them**.
+
+---
+
+## 🔬 9 angles per book (your persona chooses which to emphasize)
+
+| # | Angle | About-to-start | Side hustle | IC→Mgr | Student | Investor | Curious |
+|---|-------|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | Decision framework (N-step filter) | ⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐ | ⭐⭐ |
+| 2 | Company / project diagnosis | ⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐ | ⭐ | ⭐⭐⭐ | ⭐⭐ |
+| 3 | Customer-work insight | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐ | ⭐⭐ | ⭐ |
+| 4 | AI-era opportunity scan | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ |
+| 5 | Personal cashflow play | ⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐ |
+| 6 | Anti-consensus insight | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ |
+| 7 | 30/60/90 actions | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐ |
+| 8 | Where this book can mislead you | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐ |
+| 9 | Cross-book stacking | ⭐⭐⭐ | ⭐⭐ | ⭐⭐ | ⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ |
+
+⭐⭐⭐ = must-read · ⭐⭐ = nice-to-have · ⭐ = skip OK
+
+---
+
+## 🧠 Compass vs Generic AI summarizer
 
 |  | Generic AI summary | Reading Compass |
 |---|---|---|
-| **Output** | Book's TOC, rephrased | 9 angles, your persona, 直白话 |
-| **Source** | Wikipedia + GPT | 61 books, actually read |
-| **Personalization** | None | 6 personas, dynamic switching |
-| **Voice** | 鸡汤 + jargon | 大白话 + action item |
-| **Cross-book** | None | Stacked perspective from 3-5 books |
+| **Output** | Book's TOC, rephrased | 9 angles × your persona · 直白话 |
+| **Source** | Wikipedia + GPT | 61 books actually read · 行者-curated |
+| **Personalization** | None | 6 personas + 4 usage modes |
+| **Voice** | 鸡汤 + jargon | Plain language + action |
+| **Cross-book** | None | 3-5 books stacked |
 | **Failure check** | None | 大败局 / 十亿教训 pre-mortem mandatory |
 
 ---
 
-## 🚀 Personalize it further
+## 🚀 Personalize further
 
 The skill detects your persona from your first message. To lock it in:
 
@@ -281,11 +333,12 @@ The skill will weight every book stack accordingly.
 
 ## 🗺 Roadmap
 
-- [x] **v1.0** · 61 books · 9 clusters · 5 decision protocols
-- [x] **v1.2** · 6 reader personas · 直白话 takeaway engine
-- [ ] **v1.3** · Complete remaining 39 books (full 100)
-- [ ] **v1.4** · Add 50-failure-mode anti-pattern library
-- [ ] **v2.0** · Voice-of-author mode (Claude responds AS the author you ask)
+- [x] **v1.0** · 61 books · 行者 8-system structure
+- [x] **v2.0** · 6 reader personas · 直白话 takeaway engine
+- [x] **v2.1** · Fully aligned to 行者 official: 8 systems + 6 personas + 4 modes
+- [ ] **v2.2** · Fill the Finance & Equity gaps (huge under-coverage)
+- [ ] **v2.3** · Complete the remaining 39 books (full 100)
+- [ ] **v3.0** · Author-voice mode (Claude responds AS the author)
 
 PRs welcome. Bring your book, fill a gap.
 
@@ -293,25 +346,26 @@ PRs welcome. Bring your book, fill a gap.
 
 ## 👥 Credits
 
-### 🌟 行者老师 · 这份书单的原创者
+### 🌟 行者老师 · The original curator of the list AND the system
 
-This skill is built on **行者老师** integrated 100 本创业系统读书书单 — 中文创业圈最系统、被引用最多的一份阅读路径。
+The entire structure (8 systems / 6 personas / 4 modes / 100 books) comes from **行者老师**'s 创业系统读书全方案. This is the most systematic, most-cited founder reading path in the Chinese startup ecosystem.
 
-**📕 [@行者 on 小红书](https://xhslink.com/m/92fI81VQlmM)** · **4.4M 赞与收藏**
+**📕 [@行者 on 小红书](https://xhslink.com/m/92fI81VQlmM)** · **4.4M likes & saves**
 
-> Without 行者's curation, this skill would not exist.  
-> 没有行者老师的 curation 这个 skill 不会存在。如果你觉得这个 skill 有用，请去关注行者老师本人。  
-> *(整理书单、写读书法、答粉丝问题——这些是行者老师做的工作。我只是把它工程化了。)*
+> 行者's core thesis: ***"How 比 What 重要"*** — Once you build the knowledge system of entrepreneurship, every complex problem becomes manageable.
+>  
+> Without 行者's system, this skill would not exist. **If you find this useful, please follow 行者 directly and buy the official complete program.**  
+> *(I distilled 61 of the 100 books into AI tooling. 行者's official program has the full 100 + learning methods + course guidance.)*
 
 ### 🛠 Skylar · Distillation + Engineering
 
 **Skylar Wang** · AI GTM company Founder.
 
-> Ex-Morgan Stanley AVP. Columbia MS Applied Analytics. LA-based.
+> Ex-Morgan Stanley AVP · Columbia MS Applied Analytics · LA-based.
 
-[𝕏 @SkylarWJY](https://x.com/SkylarWJY) · [LinkedIn](https://linkedin.com/in/SkylarWJY)
+[LinkedIn](https://linkedin.com/in/SkylarWJY)
 
-### 📚 The 50+ authors
+### 📚 50+ original authors
 
 Cagan · Grove · Covey · Cialdini · Christensen · Thiel · Horowitz · Ries · Hastings · Doerr · Minto · Knapp · Gladwell · Berger · Mark · Holt · Trout · Studwell · Greenspan ·
 
@@ -325,18 +379,19 @@ Cagan · Grove · Covey · Cialdini · Christensen · Thiel · Horowitz · Ries 
 
 **MIT** — fork, remix, ship. Attribution appreciated but not required.
 
-If a frame in this skill changes how you think — **buy the original book**. The authors earned it.
+If a frame in this skill changes how you think — **buy the original book**. The authors earned it.  
+If the system changes your life direction — **support 行者老师**. 4.4M people already did.
 
 ---
 
 <div align="center">
 
-### **Same book. Your angle.**
+### **How 比 What 重要. Same book. Your angle.**
 
 **If this saves you 100 hours of reading, ⭐ the repo.**  
 **If it changes one decision, tell a friend.**
 
-*基于 [@行者](https://xhslink.com/m/92fI81VQlmM) 创业书单 · Distilled by Skylar Wang*
+*Built on [@行者](https://xhslink.com/m/92fI81VQlmM)'s 创业系统读书全方案 · Distilled by Skylar Wang*
 
 [**📕 中文 README**](README.zh.md) · [**📚 Library Index**](library/INDEX.md)
 
