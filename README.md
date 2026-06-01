@@ -62,6 +62,87 @@ That's what "为你读书" (reading on your behalf) actually means.
 
 ---
 
+## 🔬 What's actually inside each book note · 10× deeper than you'd expect
+
+This is **NOT** an AI summary tool. Each note = **6,000–10,000 words of structured strategic analysis** at the level of an investment-grade research report.
+
+### 4-part structure (per book)
+
+```
+Part 1 · Book Architecture (~3,000 words)
+  1.1 What this book is (and ROI assessment for who's reading)
+  1.2 Logical skeleton (core arguments decomposed)
+  1.3 Chapter map (what to read, what to skip)
+  1.4 Knowledge map (Q&A applied to your situation)
+  1.5 5 thinking transitions the book forces
+
+Part 2 · 7 Deep Takeaways (~4,000 words)
+  Each takeaway has 4 layers:
+   • Book's actual argument
+   • Why this matters to YOU (situated in your stage)
+   • Specific actions (a/b/c/d) — 4 concrete moves
+   • Counter-intuitive layer — the thing hardest to see
+
+Part 3 · Structured Recommendations (~3,000 words)
+  3.1 Decision framework — a reusable tool extracted from the book
+  3.2 Business model / project diagnostic
+  3.3 Customer / opportunity matrix
+  3.4 ⏰ Action list across 4 time horizons (week / month / quarter / year)
+  3.5 ⚠️ Where this book might mislead you
+  3.6 🔗 Cross-book linkages — how this amplifies/conflicts with 3-5 others
+
+Part 4 · One-sentence summary
+```
+
+### What you actually get per book (quantified)
+
+- ✅ **30+ concrete actions** (sequenced across 4 time horizons)
+- ✅ **1 reusable decision framework** (extracted from the book's core)
+- ✅ **7 deep takeaways** (each with a counter-intuitive layer)
+- ✅ **⚠️ "Watch out" list** — **what this book might mislead you on** (99% of AI summary tools skip this)
+- ✅ **🔗 Cross-book linkages** — how this book amplifies / conflicts with 3-5 others in the library
+- ✅ **Persona-rewrite** — same book, 6 different angles depending on who's reading
+
+---
+
+## 📖 Real sample · from the Mankiw《Principles of Economics》note
+
+### 🛠 The extracted "Economist's 5-lens diagnostic"
+
+Every business/personal decision passes through these 5 lenses:
+
+```
+Lens 1: Opportunity cost
+        └── What does this decision prevent me from doing 
+            (the next-best option)?
+Lens 2: Marginal benefit vs marginal cost
+        └── Don't look at totals/averages — look at the 
+            next-unit increment
+Lens 3: Incentives
+        └── What metric does the other party (and I) actually 
+            respond to — not what we say
+Lens 4: Elasticity
+        └── If price/incentive changes 1%, how much does 
+            behavior shift? Determines who can raise prices.
+Lens 5: Market structure
+        └── Perfect competition / monopoly / oligopoly / 
+            monopolistic competition? Determines long-term profit ceiling.
+```
+
+**This one framework alone is worth the full read of the book.** The library gives you 60+ such frameworks across 60+ books.
+
+### ⚠️ Sample · "Watch out" list (5 ways Mankiw might mislead you)
+
+> 1. **Mankiw's "markets + free trade" stance is strong** — he's a leading economic conservative. Don't let this book set your tone on China/US policy debates.
+> 2. **The perfect-competition model is misleading for KOL/agency markets** — your industry has heavy network effects + information asymmetries. The market won't self-optimize.
+> 3. **Comparative advantage argues for "specialize in one thing"** — but for long-term IP builders, cross-domain compounding may be your moat. Don't be talked into abandoning side bets.
+> 4. **The Giffen-goods + income-effect chapter has conservative policy implications** — treat it as a mechanism, not as an argument for austerity.
+> 5. **The book barely covers crypto / digital scarcity assets** — don't get BTC allocation advice from it.
+
+**Most AI summary tools won't tell you what a book might be WRONG about. This one always does.**
+
+---
+
 ## 🎯 Install
 
 ```bash
