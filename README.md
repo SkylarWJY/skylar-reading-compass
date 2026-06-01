@@ -2,15 +2,20 @@
 
 # 📍 Reading Compass
 
-### **行者老师 100-book founder system · engineered into a Claude skill**
+# What 行者 spent a year reading,<br/>you finish in a day.
 
-> ***"How 比 What 重要"*** — 行者老师如是说.  
-> *("How matters more than What" — the curator's core thesis)*  
+### Re-cut for **who you actually are right now**.
+
+> 行者老师 spent **1 year** curating the most systematic founder reading list in the Chinese startup ecosystem: **100 books across 8 systems**.  
 >  
-> This skill re-cuts every book for **who YOU actually are right now**, in 最直白的话 (plainest possible language).
+> This skill **distills + engineers** it into a Claude skill —  
+> so you can absorb it in **1 day**, tailored to your stage (about-to-start founder / day-job side hustler / IC-to-manager / student / investor / commerce-curious).  
+>  
+> ***"How 比 What 重要"*** — that's 行者's thesis.  
+> We engineered the **How**.
 
 **8 systems · 32 sub-categories · 100 books (61 distilled)**  
-Built on **[@行者](https://xhslink.com/m/92fI81VQlmM)** 老师's legendary 创业系统读书全方案 (小红书 · **4.4M likes & saves**)
+Built on **[@行者](https://xhslink.com/m/92fI81VQlmM)** 老师's 创业系统读书全方案 (小红书 · **4.4M likes & saves**)
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-yellow)]()
 [![Books](https://img.shields.io/badge/books-61%20%2F%20100-blue)](library/INDEX.md)
