@@ -2,172 +2,233 @@
 
 # 📍 Reading Compass
 
-### *Founder decisions, stacked through 61 books.*
+### **Same book. Your angle.**
 
-> Built on the legendary [**行者**](#-credits) 100-book founder reading list  
-> *([@行者](#-credits) · 小红书 · 抖音 · 百万博主)*  
-> Distilled. Stack-analyzed. Shipped as a Claude skill.
+> **61 books × 6 reader personas = 366 distilled takeaways.**  
+> Based on **[@行者](https://xhslink.com/m/92fI81VQlmM)** 的 100 本创业书单 (小红书 · **4.4M 赞收藏**)
 
-**61 / 100 books distilled · 9 clusters · 5 decision protocols · 1 skill**
+You don't read 60 books in the same way at 25, 35, or 45. The same book hits differently if you're at Google vs. running a 3-person startup vs. building a personal brand.
+
+This skill takes 61 books from 行者老师's legendary reading list and **re-frames every takeaway for who YOU actually are right now** — in 最直白的话.
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-yellow)]()
 [![Books](https://img.shields.io/badge/books-61%20%2F%20100-blue)](library/INDEX.md)
-[![Source](https://img.shields.io/badge/source-行者书单-red)]()
+[![Personas](https://img.shields.io/badge/personas-6-purple)]()
+[![Source](https://img.shields.io/badge/行者-4.4M%20likes-red)](https://xhslink.com/m/92fI81VQlmM)
 [![Claude Skill](https://img.shields.io/badge/Claude-Skill-black)](https://docs.claude.com/en/docs/agents-and-tools/agent-skills)
 [![中文](https://img.shields.io/badge/中文-README-green)](README.zh.md)
 
-[**Install**](#-install-in-one-line) · [**Library**](library/INDEX.md) · [**Examples**](examples/) · [**中文**](README.zh.md)
+[**Install**](#-install) · [**Personas**](#-pick-your-persona) · [**Library**](library/INDEX.md) · [**中文**](README.zh.md)
 
 </div>
 
 ---
 
-## 🎬 The 30-second demo
+## 🎬 The killer demo · One book, 6 readers
 
-**Founder, 11pm, staring at a term sheet:**
-> Should I take $2M @ $12M post from this Tier-1 VC?
+Take **《影响力》(Cialdini)** — the same 6 psychological principles. Now watch how the takeaway changes by who's asking:
 
-**Reading Compass replies:**
-```
-📚 Stack analysis · "$2M @ $12M term sheet"
+| Persona | What this book actually means for you |
+|---------|---------------------------------------|
+| 🏢 **大厂员工 / 打工人** | 老板让你"承诺"做一件事 → 一致性原则在被用在你身上。**先别立刻答应**。说"让我想想"。承诺一旦说出口，就回不去了。 |
+| 🚀 **创业者** | Cold email 第一封必带一份 specific report (互惠激活) → 回复率 ×3。不送先要 = 你在裸奔。 |
+| 👥 **管理者 / 中层** | 团队"自愿"加班 = 你激活了承诺一致 + 社会认同。**这是权力，不是文化**。别自我感动。 |
+| 🎤 **个人 IP / 创作者** | 每条帖子 trigger ≥ 1 个原则。最高 ROI：社会认同（"已有 X 人订阅" / 数字社会证明）。 |
+| 💰 **投资人** | Founder pitch 用了几条原则 = 信号。用 1-2 条 = 自然。用 5 条以上 = 操纵嫌疑，pass。 |
+| 🔄 **转型期 / 跳槽** | 谈薪资先用稀缺 ("我手上还有 2 个 offer") + 权威 (前司 title)。**直接谈数字 = 输掉**。 |
 
-▸ 十亿教训 (#33)  · Founder lands at 70% — borderline thin for next round
-▸ Horowitz (#29)  · Firm fired 2 founders in 18mo — reference-call them
-▸ Thiel (#21)     · Lower valuation + more runway > higher + same
-▸ 大败局 II (#32)  · 5mo runway = NEGATIVE leverage in negotiation
-▸ Doerr (#97)     · 1 VC + 2 founder + 0 independent board = imbalanced
+**Same 6 principles. 6 different action items. 0 paraphrasing.**
 
-🚦 TAKE — with 3 conditions:
-   1. Reference-call the 2 fired founders (NOT VC's intros)
-   2. Push for $2.5M @ $11M instead
-   3. Add independent board trigger at Series A
-
-⚠️  Walk lines: hostile fired-founder reports · pro-rata >100% · 
-                participating preference
-
-⏱  48h: email negotiation moves + 2 backup reference calls
-```
-
-**5 books. 30 seconds. Decision-grade analysis with red lines.**
-
-Not a summary engine. A **disagreement engine**.
+That's what "为你读书" actually means.
 
 ---
 
-## 🔬 Why this is actually useful (not yet another book list)
-
-**Every book is distilled across 5 angles, not 1.** That's the architectural decision that makes the skill genuinely useful — and what separates it from "I read a book, here's a summary."
-
-```
-                  📚 ONE BOOK
-                        │
-   ┌──────────┬─────────┼─────────┬──────────┐
-   │          │         │         │          │
-   ▼          ▼         ▼         ▼          ▼
-公司战略    创业战术    个人现金流   失败红线   30/60/90
-Company   Startup    Personal   Failure    Action
-   │          │         │         │          │
-   └──────────┴─────────┼─────────┴──────────┘
-                        │
-                        ▼
-              + AI 时代改写
-              + Cross-book stacking
-```
-
-### Sample: "Influence" (Cialdini #52) actually yields
-
-> "Founder's work isn't to 'explain value' — it's to fire 6 psychological triggers in sequence. Sales cycle length = inverse of how completely you deploy the 6 principles."
-
-| Angle | What the skill returns |
-|---|---|
-| 🏢 **Company** | Cold email 第一封必带 specific report (互惠激活), CTR ↑ 3x |
-| 🚀 **Startup** | Target: 6 principles fully deployed → sales cycle 90 days → 30 days |
-| 👤 **Personal** | 6 principles also a BS detector — spot which one is being run on YOU |
-| ⚠️ **Red line** | Overuse = manipulation = trust reversal at 5x normal speed |
-| ⏱ **48h action** | Audit your 5 most recent cold emails — name which principle each fires |
-| 🤖 **AI era** | LLM lets you generate personalized互惠 reports at scale — but creepy line is real |
-
-**One book. Six different lenses. Not philosophy — operating instructions.**
-
-### Voices from the canon (verbatim, not paraphrased)
-
-These are not my interpretations. These are the **authors' own sentences** — pulled directly from each book. The skill is grounded in actual reading, not Wikipedia summaries.
-
-> **张小龙** (#34 微信背后的产品观)  
-> *"产品经理是站在上帝身边的人。"*  
-> *"不能让用户一分钟就爱上你的产品，以后可能就不会再来用了。"*
-
-> **Ben Horowitz** (#29 创业维艰)  
-> *"生活就是苦苦挣扎。挣扎是你想知道自己为什么要创办公司时的状态。挣扎是人们问你为什么不退出，你却不知怎么回答时的状态。"*  
-> *"当一名成功的 CEO 的秘诀是什么？遗憾的是，根本没有秘诀。"*
-
-> **Reed Hastings** (#98 不拘一格 · Netflix)  
-> *"网飞文化的核心是：人才重于流程，创新高于效率，自由多于管控。"*  
-> *"一旦你提高了人才密度，你就可以放心地提出坦诚的问题；然后，你才可以逐步取消管控员工的种种规则。"*  
-> *(差旅政策全文 6 个字)：网飞利益至上。*
-
-> **Stephen Covey** (#92 高效能人士的七个习惯)  
-> *"消极被动的人，言语中就会流露出推卸责任的个性。例如：'我就是这样。'仿佛是说：这辈子注定改不了。"*  
-> *"着重于影响圈的人，脚踏实地，不好高骛远；把心力投注于自己能有所作为的事情，所获成就将使影响圈逐步扩大。"*
-
-> **John Doerr** (#97 这就是 OKR)  
-> *"OKR 是确保将整个组织的力量都聚焦于完成对所有人都同样重要的事项的一套管理方法。"*  
-> *"OKR 帮助谷歌实现了 10 倍速增长，把'整合全球信息'这一伟大使命变得触手可及。"*
-
-> **Robert Cialdini** (#52 影响力)  
-> *"我这一辈子，一直是个容易上当的家伙。"*  
-> *"我系统化地让自己深入顺从专家——销售员、筹款家、广告商等的世界。"*  
-> — 一个研究影响力 30 年的心理学家，开篇就承认自己是受害者。This is why we read the originals.
-
-**Each of these is in your stack the moment you install the skill.** Not the gist. The actual line, the actual context, the actual claim — distilled but not diluted.
-
-### What this means for you
-
-Most "AI book summary" tools give you **the book's TOC, rephrased**.
-
-Reading Compass gives you:
-- A 12-15 KB structured distillation per book (4 parts, 9 subsections)
-- 5+ angles on every framework: 公司 / 创业 / 个人 / 失败 / 行动
-- Cross-book stacking that surfaces productive tension
-- AI-era recontextualization (every framework re-asked: "does this still hold post-GPT?")
-- Concrete 30/60/90 actions, not vague principles
-
-→ When you ask the compass a decision question, you don't get one book's flat answer. You get **5 books arguing productively + a committed verdict**.
-
----
-
-## 🎯 Install in one line
+## 🎯 Install
 
 ```bash
 git clone https://github.com/SkylarWJY/skylar-reading-compass.git ~/.claude/skills/reading-compass
 ```
 
-Then ask Claude anything:
+Then tell Claude who you are, then ask anything:
 
 ```
-"用 reading compass 帮我分析：要不要 ship 这个 feature?"
-"book stack analysis: should I quit my BigTech job?"
-"compass me on pricing for our B2B AI tool"
-"founder lens on co-founder equity split"
+"我是 Meta 的 Senior PM. 用 reading compass 告诉我《七个习惯》对我有什么用。"
+"我在做副业,《影响力》6 原则我怎么用?"
+"我是 VC,如何用《创业维艰》看 founder 的 wartime 能力?"
+"我刚毕业,《OKR》对个人成长怎么应用?"
 ```
 
 ---
 
-## 💡 Why this exists
+## 👤 Pick your persona
 
-> 「读100本书」是创业者最常听到的建议，也是最没用的建议之一。  
-> 读到第 50 本，第 1 本的框架已经在脑子里消解了。
+The skill **adapts to your stage**. Pick one (or let Claude detect):
 
-**The Reading Compass solves the retrieval problem of being well-read.**
+<table>
+<tr>
+<td width="33%" valign="top">
 
-行者老师整理的这份 100 本书单，是中文创业圈公认的 "founder-grade" 阅读路径。  
-我（Skylar）作为 ANSIO 创始人，把这份书单的每本书 distill 进 Claude 技能 ——  
-让它在 30 秒内，从 5 个独立角度，给你的具体决策做 stress test。
+### 🏢 大厂员工
+**Big Tech IC / 打工人**
 
-> Cagan would say smoke-test first. 张小龙 would say "can you NOT add this?"  
-> Two different questions. One assumes you'll ship. The other tests whether to.  
->  
-> A summary engine flattens this. **A compass surfaces it.**
+锚定问题：  
+*"这本书怎么帮我升职 / 不被裁 / 做出影响力？"*
+
+Anchor concerns:  
+- 向上管理
+- 影响圈 vs 关注圈
+- 不卷又能升职
+- 跨部门协作
+
+</td>
+<td width="33%" valign="top">
+
+### 🚀 创业者
+**Founder / 老板**
+
+锚定问题：  
+*"这本书怎么帮我 ship + 活下来 + 不犯前人犯过的错？"*
+
+Anchor concerns:  
+- 0→1 / PMF
+- Cap table / VC
+- 招人 / 文化
+- 失败模式 pre-mortem
+
+</td>
+<td width="33%" valign="top">
+
+### 👥 管理者 / 中层
+**Manager / Team Lead**
+
+锚定问题：  
+*"这本书怎么帮我带团队 + 立威 + 不变成讨厌的领导？"*
+
+Anchor concerns:  
+- OKR 落地
+- 1:1 / 反馈
+- Performance review
+- 留住关键人才
+
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+
+### 🎤 个人 IP / 创作者
+**Creator / Solopreneur**
+
+锚定问题：  
+*"这本书怎么帮我涨粉 / 涨收入 / 不被算法绑架？"*
+
+Anchor concerns:  
+- 定位 / 人设
+- 内容裂变
+- 私域沉淀
+- 把读者变收入
+
+</td>
+<td width="33%" valign="top">
+
+### 💰 投资人
+**VC / Angel / 散户**
+
+锚定问题：  
+*"这本书怎么帮我看 founder / 看赛道 / 看周期？"*
+
+Anchor concerns:  
+- Founder 评估
+- 行业判断
+- 失败模式识别
+- 周期 vs 趋势
+
+</td>
+<td width="33%" valign="top">
+
+### 🔄 转型期 / 学生
+**Transitioner / Student**
+
+锚定问题：  
+*"这本书怎么帮我决定下一步 / 不踩坑 / 长期复利？"*
+
+Anchor concerns:  
+- 跳槽 / 创业决策
+- 副业起步
+- 个人现金流
+- 5 年地图
+
+</td>
+</tr>
+</table>
+
+---
+
+## 📖 Sample · 《七个习惯》across 6 personas
+
+Watch how Stephen Covey's classic gets re-cut depending on who's reading:
+
+### Original (Covey 的原话)
+> *"消极被动的人，言语中就会流露出推卸责任的个性。例如：'我就是这样。'仿佛是说：这辈子注定改不了。"*
+
+### What it means for YOU:
+
+**🏢 大厂员工读到的是**：  
+"我就是这样" = 中层魔咒。每次说 "我们公司就这样" / "老板就这样" / "团队就这样" 你的影响圈就缩小一寸。**3 年后你还在这个位置就是因为这个**。
+
+**🚀 创业者读到的是**：  
+Founder 唯一不能有的口头禅就是"市场就是这样"。市场是你创造的——你说"市场就这样"那就是你认输了。这一句话能筛掉 80% 不该投的项目。
+
+**👥 管理者读到的是**：  
+团队说"我就这样"时，你不能接住。接住 = 默认。要在 1:1 里直接 challenge：**"那你打算怎么变？"** 不给他逃跑路径。
+
+**🎤 创作者读到的是**：  
+不要再发 "我就是这样写" 的内容。粉丝不为你的 "this is who I am" 买单——他们为你的"变化"买单。每个月迭代你的 voice，关注圈才会扩张。
+
+**💰 投资人读到的是**：  
+Founder 第一次 pitch 时如果说"市场就这样" / "竞争太激烈" / "时机不好"——直接 pass。他没意识到自己在关注圈里。**这种 founder 救不了**。
+
+**🔄 转型期读到的是**：  
+"我已经 30 了，转不动了" / "我背景不对" / "我没人脉"——每说一次就给自己缩一寸影响圈。**Covey 用一生证明：影响圈是你能控制的。每个月扩 1 寸，5 年后是另一个人**。
+
+---
+
+## 🔬 The 9 angles per book (each persona's lens)
+
+Every book in the library is distilled across the same 9 angles. Your persona changes which angles get emphasized:
+
+| # | Angle | 大厂 | 创业 | 管理 | 创作 | 投资 | 转型 |
+|---|-------|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | 决策框架（N 步过滤器） | ⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ |
+| 2 | 公司 / 项目诊断 | ⭐ | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐ | ⭐ |
+| 3 | 客户工作启示 | ⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐ |
+| 4 | AI 时代机会扫描 | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ |
+| 5 | 个人赚钱机会 | ⭐⭐⭐ | ⭐⭐ | ⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐ |
+| 6 | 反共识洞察 | ⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ |
+| 7 | 30/60/90 行动 | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐ |
+| 8 | 警惕清单（这本书可能误导你的地方） | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐ | ⭐⭐ | ⭐⭐⭐ |
+| 9 | Cross-book stacking | ⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐ | ⭐⭐⭐ | ⭐⭐ |
+
+⭐⭐⭐ = 你应该读的角度 · ⭐⭐ = 顺便看 · ⭐ = 跳过没关系
+
+---
+
+## 📚 The library — 61 / 100 books, 9 clusters
+
+| Cluster | # | 大厂 | 创业 | 管理 | 创作 | 投资 | 转型 |
+|---------|---|:---:|:---:|:---:|:---:|:---:|:---:|
+| 🏛 Macro & Foundations | 5 | · | ✅ | · | · | ✅✅ | · |
+| 🇨🇳 China Context | 8 | ✅ | ✅✅ | ✅ | ✅ | ✅✅ | ✅ |
+| 💥 Failure Library | 3 | ✅ | ✅✅✅ | ✅ | ✅ | ✅✅✅ | ✅✅ |
+| 🛠 Product Methodology | 5 | ✅✅ | ✅✅ | ✅✅ | ✅ | ✅ | · |
+| 🎨 Brand & Narrative | 7 | · | ✅✅ | · | ✅✅✅ | ✅ | ✅ |
+| 🧠 Growth & Persuasion | 7 | ✅ | ✅✅ | ✅ | ✅✅✅ | ✅ | ✅ |
+| 👥 Management & Culture | 6 | ✅✅ | ✅✅ | ✅✅✅ | · | ✅ | ✅ |
+| 🚀 Startup Classics | 9 | ✅ | ✅✅✅ | ✅ | · | ✅✅ | ✅✅ |
+| 💭 Mental OS | 7 | ✅✅ | ✅✅ | ✅✅ | ✅✅ | ✅✅ | ✅✅✅ |
+
+[**See full 61-book index →**](library/INDEX.md)
+
+✅✅✅ = 这个人设必读 · ✅✅ = 高 ROI · ✅ = 可以看
 
 ---
 
@@ -176,123 +237,87 @@ Then ask Claude anything:
 ```
 █████████████████████████████████░░░░░░░░░░░░░  61%
 
-Foundations    ████████████████████  5/5     ✅
-China Context  ██████████████████░░  8/10
-Failure Lib    █████████████████████ 3/3     ✅
-Product        ████████████████████  5/5     ✅
-Brand          ████████████████████  7/7     ✅
-Growth         ████████████████████  7/7     ✅
-Management     ████████████████████  6/6     ✅
-Startup        ████████████████░░░░  9/12
-Mental OS      ████████████████████  7/7     ✅
-Finance        ███████░░░░░░░░░░░░░  3/10    (deep gap)
-Bonus 番外      ████████████████████  2/2     ✅
+宏观地基       ████████████████████  5/5     ✅
+中国语境       ██████████████████░░  8/10
+失败案例库     █████████████████████ 3/3     ✅
+产品方法论     ████████████████████  5/5     ✅
+品牌叙事       ████████████████████  7/7     ✅
+增长说服       ████████████████████  7/7     ✅
+管理文化       ████████████████████  6/6     ✅
+创业经典       ████████████████░░░░  9/12
+心智 OS        ████████████████████  7/7     ✅
+财务数据       ███████░░░░░░░░░░░░░  3/10    (深度 gap)
 ```
 
-40 books remain. Updated weekly. ⭐ the repo to follow along.
+剩 39 本。每周更新。⭐ this repo 跟进。
 
 ---
 
-## 📖 The library — 9 clusters
+## 🧠 Why this works · Compass vs Generic AI
 
-| # | Cluster | Anchor authors | Pull when |
-|---|---|---|---|
-| 🏛 | **Macro & Foundations** | 黄奇帆 · Studwell · Greenspan | Market entry · field-level forces |
-| 🇨🇳 | **China Context** | 雷军 · 段永平 · 柳井正 · 吴晓波 | China market · East Asian capital |
-| 💥 | **Failure Library** | 大败局 I+II · 十亿教训 | **ALWAYS** — pre-mortem every move |
-| 🛠 | **Product Methodology** | Cagan · 张小龙 · 梁宁 · 俞军 | Feature / Discovery / PM decisions |
-| 🎨 | **Brand & Narrative** | Trout · 华杉 · Berger · Mark · Holt | Positioning · personal IP · messaging |
-| 🧠 | **Growth & Persuasion** | Eyal · Cialdini · Ferrier · 杨飞 · 徐志斌 | Funnel · conversion · viral design |
-| 👥 | **Management & Culture** | Grove · Doerr · Hastings · Schmidt · Covey | Hiring · OKR · team conflict |
-| 🚀 | **Startup Classics** | Thiel · Horowitz · Ries · Christensen · 柳井正 | 0→1 · wartime · pivot decisions |
-| 💭 | **Mental OS** | Covey · Knapp · Minto · 谢胜子 · 张亚勤 | Founder心法 · time · communication |
-
-➕ **2 番外 picks** for timely intel: 谢胜子 (founder心法 · 公众号合集) · 张亚勤 (post-DeepSeek AI strategy)
-
-[**See full 100-book index →**](library/INDEX.md)
+|  | Generic AI summary | Reading Compass |
+|---|---|---|
+| **Output** | Book's TOC, rephrased | 9 angles, your persona, 直白话 |
+| **Source** | Wikipedia + GPT | 61 books, actually read |
+| **Personalization** | None | 6 personas, dynamic switching |
+| **Voice** | 鸡汤 + jargon | 大白话 + action item |
+| **Cross-book** | None | Stacked perspective from 3-5 books |
+| **Failure check** | None | 大败局 / 十亿教训 pre-mortem mandatory |
 
 ---
 
-## 📋 5 decision protocols
+## 🚀 Personalize it further
 
-The compass runs differently for different decisions. Each protocol pulls a tailored 5-book stack:
-
-| Protocol | Anchor question | Stack |
-|----------|----------------|-------|
-| 💰 [**Pricing**](protocols/PRICING.md) | What value layer am I at? | 梁宁 · 俞军 · Cialdini · 张小龙 · 大败局 II |
-| 👥 [**Hiring**](protocols/HIRING.md) | Keeper Test + leverage | Hastings · Schmidt · Horowitz · Grove · 十亿教训 |
-| 💵 [**Fundraising**](protocols/FUNDRAISING.md) | Cap table preservation | 十亿教训 · Horowitz · Thiel · 大败局 II · Doerr |
-| 🛠 [**Feature go/no-go**](protocols/FEATURE-GO-NOGO.md) | Can you NOT add it? | 张小龙 · Cagan · 俞军 · 任天堂 · 张亚勤 |
-| 🎤 [**Personal IP**](protocols/PERSONAL-IP.md) | 支点优势 + archetype | Trout · Mark · 谢胜子 · Berger |
-
----
-
-## 🧠 Compass vs Generic AI
-
-|  | Generic ChatGPT advice | Reading Compass |
-|---|------------------|-----------------|
-| **Source** | Internet aggregate | 61 distilled books (curated by 行者 + Skylar) |
-| **Stance** | "It depends" | Commits to a verdict |
-| **Output** | One framing | 3-5 frames, productively disagreeing |
-| **Failure** | Skipped | Mandatory pre-mortem from 大败局 family |
-| **Action** | Vague | One 48-hour concrete step |
-| **Voice** | Generic | Bilingual, founder-direct, **拒绝鸡汤** |
-
----
-
-## 🚀 Make it yours
-
-The skill is **founder-agnostic** by default. Personalize with one file:
+The skill detects your persona from your first message. To lock it in:
 
 ```bash
-echo "I'm building [X] at [stage]. ICP: [Y]. Current bet: [Z]." \
+echo "I'm a [persona]. I work on [domain]. My current bet is [thing]." \
   > ~/.claude/skills/reading-compass/MY_CONTEXT.md
 ```
 
-The skill weights book frames against your specific context when stacking.
+The skill will weight every book stack accordingly.
 
 ---
 
 ## 🗺 Roadmap
 
-- [x] **v1.0** · 61 books · 9 clusters · 5 protocols
-- [ ] **v1.1** · Complete the remaining 39 books (full 100)
-- [ ] **v1.2** · Anti-pattern library (50 failure modes deep-dive)
-- [ ] **v1.3** · Bilingual stack answers (full EN ↔ ZH parity)
-- [ ] **v2.0** · Conversational decision interviewer (Claude asks the right clarifying questions before stacking)
+- [x] **v1.0** · 61 books · 9 clusters · 5 decision protocols
+- [x] **v1.2** · 6 reader personas · 直白话 takeaway engine
+- [ ] **v1.3** · Complete remaining 39 books (full 100)
+- [ ] **v1.4** · Add 50-failure-mode anti-pattern library
+- [ ] **v2.0** · Voice-of-author mode (Claude responds AS the author you ask)
 
-PRs welcome. Bring your own books — fill a coverage gap and credit yourself.
+PRs welcome. Bring your book, fill a gap.
 
 ---
 
 ## 👥 Credits
 
-### 🌟 行者 — the curator of this list
+### 🌟 行者老师 · 这份书单的原创者
 
-This skill is built on **行者老师** 整理的 100 本创业系统读书书单 — 中文创业圈最系统、最被引用的一份阅读路径。
+This skill is built on **行者老师** integrated 100 本创业系统读书书单 — 中文创业圈最系统、被引用最多的一份阅读路径。
 
-- 📕 小红书：[@行者](#) *(本人请补充链接)*
-- 🎵 抖音：[@行者](#) *(本人请补充链接)*
-- 👥 百万级粉丝 · 创业系统读书法
+**📕 [@行者 on 小红书](https://xhslink.com/m/92fI81VQlmM)** · **4.4M 赞与收藏**
 
-> Without 行者's curation, this skill would not exist. 这份书单不是我（Skylar）的功劳——是我作为读者+ builder，把行者老师的内容做了一层 distillation + tooling 的工作。
+> Without 行者's curation, this skill would not exist.  
+> 没有行者老师的 curation 这个 skill 不会存在。如果你觉得这个 skill 有用，请去关注行者老师本人。  
+> *(整理书单、写读书法、答粉丝问题——这些是行者老师做的工作。我只是把它工程化了。)*
 
-### 🛠 Skylar — the builder
+### 🛠 Skylar · Distillation + Engineering
 
 **Skylar Wang** · Founder of [ANSIO](https://ansio.ai) — Bloomberg Terminal for AI founders.
 
-> Ex-Morgan Stanley AVP. Columbia MS Applied Analytics. LA-based.  
-> Distilling the books behind every ANSIO product decision.
+> Ex-Morgan Stanley AVP. Columbia MS Applied Analytics. LA-based.
 
 [𝕏 @SkylarWJY](https://x.com/SkylarWJY) · [LinkedIn](https://linkedin.com/in/SkylarWJY) · [ansio.ai](https://ansio.ai)
 
-### 📚 The authors
+### 📚 The 50+ authors
 
 Cagan · Grove · Covey · Cialdini · Christensen · Thiel · Horowitz · Ries · Hastings · Doerr · Minto · Knapp · Gladwell · Berger · Mark · Holt · Trout · Studwell · Greenspan ·
 
 吴晓波 · 黄奇帆 · 温铁军 · 吴敬琏 · 俞军 · 梁宁 · 张小龙 · 雷军 · 段永平 · 柳井正 · 松下幸之助 · 张亚勤 · 谢胜子 · 华杉 · 杨飞 · 徐志斌 · 关明生 · 张新民 ·
 
-...and many more. The full attribution lives in [`library/INDEX.md`](library/INDEX.md).
+[Full attribution → `library/INDEX.md`](library/INDEX.md)
 
 ---
 
@@ -300,18 +325,19 @@ Cagan · Grove · Covey · Cialdini · Christensen · Thiel · Horowitz · Ries 
 
 **MIT** — fork, remix, ship. Attribution appreciated but not required.
 
-The books themselves remain the IP of their original authors. If a frame in this skill changes how you think — buy the original book. They earned it.
+If a frame in this skill changes how you think — **buy the original book**. The authors earned it.
 
 ---
 
 <div align="center">
 
-### **If this saves you 100 hours of reading, ⭐ the repo.**
-### **If it saves you 1 bad decision, tell someone.**
+### **Same book. Your angle.**
 
-*Built with discipline. Maintained out of obsession.*  
-*基于行者书单 · By Skylar Wang*
+**If this saves you 100 hours of reading, ⭐ the repo.**  
+**If it changes one decision, tell a friend.**
 
-[**📕 中文版 README**](README.zh.md) · [**📚 Full Library Index**](library/INDEX.md) · [**💼 ANSIO**](https://ansio.ai)
+*基于 [@行者](https://xhslink.com/m/92fI81VQlmM) 创业书单 · Distilled by Skylar Wang*
+
+[**📕 中文 README**](README.zh.md) · [**📚 Library Index**](library/INDEX.md) · [**💼 ANSIO**](https://ansio.ai)
 
 </div>
