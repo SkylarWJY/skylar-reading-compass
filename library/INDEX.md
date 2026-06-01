@@ -1,7 +1,7 @@
 # 📚 The Library — 61 / 100 Books
 
 > Curated from **行者老师** 的 100 本创业系统读书书单 (中文创业圈最系统的 founder reading list)  
-> Distilled by **Skylar Wang** · ANSIO founder · ex-Morgan Stanley · Columbia  
+> Distilled by **Skylar Wang** · AI GTM company founder · ex-Morgan Stanley · Columbia  
 >  
 > **61 books distilled. 39 in pipeline.** Updated weekly.
 
@@ -213,5 +213,5 @@ Each book's deep notes (12-15KB each) live in private working drafts. This index
 ---
 
 *Reading list curated by **行者老师** (百万博主 · 小红书 · 抖音).  
-Distilled & engineered by **Skylar Wang** (ANSIO).  
+Distilled & engineered by **Skylar Wang**.  
 Last updated 2026-06-01 · v1.1.0 · 61 books distilled · 39 in pipeline.*

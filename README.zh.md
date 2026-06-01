@@ -305,11 +305,11 @@ echo "我是[人设]。在做[领域]。当前 bet: [事]。" \
 
 ### 🛠 Skylar · 蒸馏 + 工程化
 
-**Skylar Wang** · [ANSIO](https://ansio.ai) 创始人 — 给 AI 创业者的 Bloomberg Terminal。
+**Skylar Wang** · AI GTM 公司 Founder。
 
 > 前 Morgan Stanley AVP · Columbia 应用分析硕士 · 在 LA。
 
-[𝕏 @SkylarWJY](https://x.com/SkylarWJY) · [LinkedIn](https://linkedin.com/in/SkylarWJY) · [ansio.ai](https://ansio.ai)
+[𝕏 @SkylarWJY](https://x.com/SkylarWJY) · [LinkedIn](https://linkedin.com/in/SkylarWJY)
 
 ### 📚 50+ 位原作者
 
@@ -338,6 +338,6 @@ Cagan · Grove · Covey · Cialdini · Christensen · Thiel · Horowitz · Ries 
 
 *基于 [@行者](https://xhslink.com/m/92fI81VQlmM) 老师书单 · Distilled by Skylar Wang*
 
-[**🇺🇸 English README**](README.md) · [**📚 书库索引**](library/INDEX.md) · [**💼 ANSIO**](https://ansio.ai)
+[**🇺🇸 English README**](README.md) · [**📚 书库索引**](library/INDEX.md)
 
 </div>

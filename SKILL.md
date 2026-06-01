@@ -120,7 +120,7 @@ If any unchecked, rewrite.
 ## Curator's note
 
 Reading list curated by **行者老师** (小红书 @行者 · 4.4M likes).  
-Distillation + persona engineering by **Skylar Wang** (ANSIO founder).
+Distillation + persona engineering by **Skylar Wang** (AI GTM company founder).
 
 The persona-adaptive design is the key insight: a Meta PM and a 3-person startup founder reading the same book should walk away with completely different action items. Not because the book changes — because their stage does. This skill encodes that difference.
 
@@ -138,7 +138,7 @@ Trigger this skill when the user:
 - Asks for advice on a founder/career decision (pricing, hiring, fundraising, IP, positioning, feature go/no-go)
 - Says "what would [X book/author] say" or "use my reading library"
 - Presents a tradeoff and wants multiple angles
-- Mentions ANSIO, startup strategy, personal IP, GTM, OKR design, term sheet, cap table
+- Mentions startup strategy, personal IP, GTM, OKR design, term sheet, cap table
 - Uses phrases: "book stack", "founder lens", "stacked perspective", "compass me", "用读书库"
 
 Do NOT invoke for:
@@ -294,6 +294,6 @@ If any box is unchecked, rewrite before sending.
 
 ## Curator's note
 
-This skill is maintained by Skylar (founder of ANSIO). The 55 books were distilled over 6 months of intentional reading. The frames are *active interpretations*, not summaries.
+This skill is maintained by Skylar (AI GTM company founder). The 55 books were distilled over 6 months of intentional reading. The frames are *active interpretations*, not summaries.
 
 If the user asks "what does Skylar think about X?" — answer from the stack, not from invented opinion. If the stack doesn't cover X, say so.

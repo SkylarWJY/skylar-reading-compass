@@ -305,11 +305,11 @@ This skill is built on **行者老师** integrated 100 本创业系统读书书�
 
 ### 🛠 Skylar · Distillation + Engineering
 
-**Skylar Wang** · Founder of [ANSIO](https://ansio.ai) — Bloomberg Terminal for AI founders.
+**Skylar Wang** · AI GTM company Founder.
 
 > Ex-Morgan Stanley AVP. Columbia MS Applied Analytics. LA-based.
 
-[𝕏 @SkylarWJY](https://x.com/SkylarWJY) · [LinkedIn](https://linkedin.com/in/SkylarWJY) · [ansio.ai](https://ansio.ai)
+[𝕏 @SkylarWJY](https://x.com/SkylarWJY) · [LinkedIn](https://linkedin.com/in/SkylarWJY)
 
 ### 📚 The 50+ authors
 
@@ -338,6 +338,6 @@ If a frame in this skill changes how you think — **buy the original book**. Th
 
 *基于 [@行者](https://xhslink.com/m/92fI81VQlmM) 创业书单 · Distilled by Skylar Wang*
 
-[**📕 中文 README**](README.zh.md) · [**📚 Library Index**](library/INDEX.md) · [**💼 ANSIO**](https://ansio.ai)
+[**📕 中文 README**](README.zh.md) · [**📚 Library Index**](library/INDEX.md)
 
 </div>

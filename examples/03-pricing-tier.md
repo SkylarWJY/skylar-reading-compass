@@ -27,12 +27,12 @@
 
 **Replacement cost (俞军 #37):** MEDIUM
 - Old workflow: manual X search + Apollo + LinkedIn → 5h/week
-- New workflow: ANSIO dashboard → 30 seconds
+- New workflow: the product dashboard → 30 seconds
 - Switching cost: low (no data to migrate) — that's GOOD for pricing
 - Delta = 5h - 0.5min ≈ 10x improvement → can sustain pricing premium
 
 **Anchoring frame (Cialdini #52):**
-- Natural anchor: "1 BDR salary = $8K/mo. ANSIO = $299/mo = 2.7% of BDR cost"
+- Natural anchor: "1 BDR salary = $8K/mo. the product = $299/mo = 2.7% of BDR cost"
 - This anchor is killer — use it on landing page
 - Avoid anchoring against competitors (you don't have direct ones yet)
 
