@@ -1,4 +1,6 @@
-# 📚 The Library — 55 Books, 9 Clusters
+# 📚 The Library — 60 Books, 9 Clusters
+
+> Part of a 100-book founder reading journey. 60 distilled to date; 40 in pipeline.
 
 > Each book = one-line distilled core + when-to-pull trigger. Click cluster name for deep notes.
 
@@ -20,9 +22,9 @@
 
 ---
 
-## 🇨🇳 Cluster 2 · China Context (5 books)
+## 🇨🇳 Cluster 2 · China Context (8 books)
 
-*When the decision touches Chinese markets, capital, or operators.*
+*When the decision touches Chinese / East Asian markets, capital, or operators.*
 
 | # | Title | Author | One-line core |
 |---|-------|--------|---------------|
@@ -30,6 +32,9 @@
 | 14 | 激荡三十年 | 吴晓波 | 中国民营 30 年 + 每 8-10 年一次大洗牌 |
 | 15 | 小米创业思考 | 雷军 | 长期主义 + 性价比 + 铁人三项 (硬件+互联网+新零售) |
 | 16 | 段永平投资问答录 | 段永平 | Do right things + 本分 + 不为清单 |
+| 17 | 经营者养成笔记 | 柳井正 | 经营者 = 创造客户 + 不断挑战 |
+| 18 | 一胜九败 | 柳井正 | 9 次失败 1 次成功 = 优衣库迭代心法 |
+| 22 | 松下幸之助经营管理全集 | 松下幸之助 | 自来水哲学 + 责任经营 + 人本主义 |
 | 28 | 关乎天下 · 中小企业赢的秘诀 | 关明生 | 道-谋-断-人-阵-法 + 明星 vs 野狗 |
 
 **Pull when**: China market entry, Chinese co-founder dynamics, RMB pricing, supply chain in China, dealing with Chinese VC.
@@ -204,4 +209,4 @@ Each book's deep notes (12-15KB each) live in private working drafts. This index
 
 ---
 
-*Curated by Skylar Wang. Last updated 2026-05-28. v1.0 · 55 books.*
+*Curated by Skylar Wang. Last updated 2026-06-01. v1.0 · 60 books distilled, 40 in pipeline.*
